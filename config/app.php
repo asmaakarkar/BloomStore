@@ -161,6 +161,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        LaravelFrontendPresets\PaperPreset\PaperPresetServiceProvider::class,
 
         /*
          * Package Service Providers...
